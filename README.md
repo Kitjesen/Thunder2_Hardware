@@ -1,5 +1,7 @@
 ### `code/`
-分电板（Power Distribution Board, PDB）的源代码。  
+Power ： 分电板的源代码。  
+LED_Drive：   LED驱动控制
+PowerSwitch： 电量显示开关
 负责电源通道管理、电流检测与过流保护等逻辑，可通过 STM32 平台编译运行。
 
 ### `firmware/`
